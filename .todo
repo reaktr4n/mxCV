@@ -1,0 +1,25 @@
+TODO 1: Installation
+DONE 2: Initializing the mxCV environment
+DONE 3: Further documentation
+DONE 4: Image database env variable set
+TODO 5: GUI framwork for certain algorithms
+TODO 6: Weighted image median filter
+DONE 7: Bilateral image filter
+DONE 8: implemented convolution 2d 
+DONE 9: try-catch convolution 2d
+BBNR 10: seperable 1D
+BBNR 11: try-catch seperable 1D
+DONE 12: Gaussian image filtering exclusive
+DONE 13: Create templates for error messages and in-function documentation
+TODO 14: Sobel done, bug fix needed
+TODO 15: weighted image filter not working as intended, bug fix needed
+TODO 16: image gradient with fwd, bkwd and central diff to be implemented
+DONE 17: Shape shifting filter && fetching pixel neighborhood accordingly
+DONE 18: create two versions of "fetching pixel neighborhood accordingly"
+DONE 19: bilateral image filtering with shape shifting image and kernel
+DONE 20: image gaussian blur with shape shifting image and kernel - exclusive
+DONE 21: Decide on the cornerness - Harris Corner Detection and Triggs' Corner Detector
+TODO 22: corner detectors with NMS
+TODO 23: NMS as threshold value to various corner detector functions
+DONE 24: Added threshold values for a better corner response
+TODO 25: Optical flow and related literature study until implementation

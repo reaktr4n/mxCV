@@ -1,0 +1,41 @@
+%% Initialisation script for loading Matlunix-CV environment 
+%% variable imds - Image Dataset - contains location of image 
+%% dataset.
+disp ('-------------------------------------------------------------------------------------------')
+disp ('-------------------------------------------------------------------------------------------')
+disp ('         >> % A sub-environment for Tracking and Detection in Computer Vision.')
+disp ("         >> MatLunix          = 'Enabling vision in machines'")
+disp ("         >> MatLunix.author   = 'Nitin Deshpande.'")
+disp ("         >> MatLunix.whereiam = 'Munich, Germany.'")
+
+if size (getenv('IMAGEDS'), 1) ~= 0 || size (getenv('IMAGEDS'), 2) ~= 0
+    disp ('matlunix-CV (mxCV) sub-env found the environment variable "IMAGEDS" - set and found on ')
+    disp ('this terminal @ ')
+    disp (getenv('IMAGEDS'))
+else
+    disp ('matlunix-CV (mxCV) cannot find the environment variable - IMAGEDS')
+    disp ('(1) To create a dataset-base on your terminal. Create a directory, name it "datasets".')
+    disp ('The name of the directory(ies) is/are case-sensitive.')
+    disp ('Create the following directories in the "datasets" directory:')
+    disp ('image_all/  nltk_data/  nn/  pcd/  ply/  videos/  viz/')
+    disp ('image_all    : Should contain images.')
+    disp ('nltk_data    : Should contain NLTK data.')
+    disp ('nn           : Should contain neural networks datasets.')
+    disp ('pcd          : Should contain point cloud data.')
+    disp ('ply          : Should contain polygon (*.ply) files.')
+    disp ('videos       : Should contain video files.')
+    disp ('viz          : Should contain visualization files.')
+    disp ('Once the directory and sub-directories are created. Point the location of the')
+    disp ('parent directory, i.e. "datasets" to IMAGEDS environment variable. Read on to')
+    disp ('know more about creating environment variable on Windows and Linux.')
+    disp ('(2) An environment variable IMAGEDS can be created on your Windows PC.')
+    disp ('You can find out how to create and set a value to an environment variable')
+    disp ('here:')
+    disp ('https://docs.microsoft.com/en-us/windows/win32/procthread/environment-variables')
+    disp ('(3) To create an environment variable on a Linux terminal, you could simply cre-')
+    disp ('-ate the IMAGEDS environment in the .bashrc file (if using bash), and save it.')
+    disp ('To create an environment variable on Ubuntu (for instance), please read:')
+    disp ('https://help.ubuntu.com/community/EnvironmentVariables') 
+end
+disp ('-------------------------------------------------------------------------------------------')
+disp ('-------------------------------------------------------------------------------------------')

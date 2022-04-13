@@ -1,0 +1,14 @@
+*.*~
+mxCV-icons/
+*.png
+*.jpeg
+*.jpg
+*.tiff
+*.tif
+*.bmp
+test.m
+test*.m
+sample.m
+sample*.m
+*.asv
+template.txt
